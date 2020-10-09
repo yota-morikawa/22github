@@ -1,0 +1,188 @@
+/* Mobile */
+
+@media (max-width: 600px) {
+  * {
+    font-size: 16px;
+  }
+
+  img {
+    image-rendering: auto;
+  }
+
+  .sidenav,
+  .hum-menu {
+    display: table-column;
+  }
+
+  .sidenav {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* color: #93c1e6; */
+    overflow: hidden;
+    transition: 0.5s;
+    background-color: #93c1e6;
+  }
+
+  .sidenav a {
+    padding: 16px 8px 8px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    transition: 0.5s;
+    font-weight: bold;
+  }
+
+  .sidenav a:hover {
+    color: #ff9900;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 30px;
+  }
+
+  span {
+    margin: 8px;
+  }
+
+  .header-tf {
+    position: fixed;
+    background-color: #93c1e6;
+    height: 50px;
+    z-index: 2;
+    top: 0;
+  }
+
+  .header-tf h1 {
+    font-size: 24px;
+    display: inline;
+    position: relative;
+    left: 10px;
+  }
+
+  .h-link {
+    display: none;
+  }
+
+  .h-img {
+    margin-top: 50px;
+  }
+
+  .h-img img {
+    height: 500px;
+    width: 100%;
+  }
+
+  .prev,
+  .next {
+    margin-top: 300px;
+    font-size: 24px;
+  }
+
+  .products img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .products {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .cookie,
+  .cake {
+    margin: 0 auto;
+  }
+
+  .cake {
+    margin-top: 20px;
+  }
+
+  .chef-data,
+  .chef-image img,
+  .abc-image img,
+  .abc {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .chef-image,
+  .abc-image {
+    width: auto;
+  }
+
+  .chef {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .chef-data,
+  .abc {
+    margin: 30px auto;
+  }
+
+  .map iframe {
+    width: 90%;
+    height: 100%;
+  }
+
+  /* ____________________products */
+  .pro-h2,
+  .about-h2,
+  .contact-h2 {
+    margin-top: 80px;
+  }
+
+  .cha-img {
+    width: auto;
+    height: auto;
+  }
+
+  .pro-image img {
+    height: 250px;
+  }
+
+  /* ____________________about */
+  .about-image,
+  .video {
+    width: 100%;
+    height: 100%;
+    margin: 30px auto 0;
+  }
+
+  .about-image iframe,
+  .video iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+  .about-com {
+    width: 90%;
+  }
+
+  /* ____________________contact */
+  .contact {
+    width: 90%;
+    text-align: center;
+
+    /* border: 2px solid blue; */
+  }
+
+  .contact-abc {
+    width: 90%;
+  }
+
+  .contact-left {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 8px;
+  }
+}
